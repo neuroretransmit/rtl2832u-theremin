@@ -1,0 +1,3 @@
+Options:
+		Find way to dampen signal physically 
+	OR 	buy cheap RF proximity sensory to put on hand and wave around antenna.

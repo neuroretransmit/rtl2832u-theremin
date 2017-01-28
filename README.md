@@ -7,7 +7,7 @@ A project to play MIDI tones via my rtlsdl antenna. Uses pyrtlsdr library for pr
 * An RTL2832U SDR
 * The device to recieve RF proximity I'm going to build
 ```
-$ pip install pyrtlsdr
+$ pip install pyrtlsdr pygame
 ```
 
 ## Current status

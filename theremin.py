@@ -9,6 +9,10 @@ sdr.center_freq = 70e6     # Hz
 sdr.freq_correction = 60   # PPM
 sdr.gain = 'auto'
 
+midi_player = Midi(0)
+
 while True:
 	for sample in sdr.read_samples(512):
-		print (sample)
+                midi_player.play(0, sample, 1)
+
+

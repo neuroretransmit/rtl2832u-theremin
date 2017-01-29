@@ -20,3 +20,11 @@ class Midi:
         del self.player
         pygame.midi.quit()
 
+
+if __name__ == "__main__":
+    midi = Midi(0)
+    
+    for i in range(0, 100):
+        midi.play(4, i, .05)
+
+    midi.close()
